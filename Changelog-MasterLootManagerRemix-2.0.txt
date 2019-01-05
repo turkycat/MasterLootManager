@@ -1,0 +1,51 @@
+------------------------------------------------------------------------
+r13 | zernin | 2010-07-20 07:37:43 +0000 (Tue, 20 Jul 2010) | 1 line
+Changed paths:
+   A /tags/2.0 (from /trunk:12)
+
+Tagging 2.0 release.
+------------------------------------------------------------------------
+r12 | zernin | 2010-07-20 07:36:43 +0000 (Tue, 20 Jul 2010) | 10 lines
+Changed paths:
+   A /trunk/Localization.lua
+   M /trunk/MasterLootLogger.lua
+   M /trunk/MasterLootLogger.xml
+   M /trunk/MasterLootManager.lua
+   M /trunk/MasterLootManager.xml
+   M /trunk/MasterLootManagerRemix.toc
+   A /trunk/README.txt
+
+Added basic localization support. The add on should now function in frFR, deDE, and esES/esMX, but the majority of the add on is still lacks localization.
+
+Added a toggle for normal raid channel or raid warning.
+Added basic localization support. The add on should now function in frFR, deDE, and esES/esMX, but the majority of the add on is still lacks localization.
+
+Added a toggle for normal raid channel or raid warning.
+
+Added logger readme.
+
+Updated TOC version number for release.
+------------------------------------------------------------------------
+r10 | zernin | 2010-06-20 10:13:06 +0000 (Sun, 20 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/MasterLootManagerRemix.toc
+
+toc version update for tag
+------------------------------------------------------------------------
+r9 | zernin | 2010-06-20 10:08:31 +0000 (Sun, 20 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/MasterLootLogger.lua
+   M /trunk/MasterLootLogger.xml
+   M /trunk/MasterLootManager.lua
+
+Add/Edit frame type dropdown
+------------------------------------------------------------------------
+r8 | zernin | 2010-06-20 06:05:06 +0000 (Sun, 20 Jun 2010) | 2 lines
+Changed paths:
+   M /trunk/MasterLootLogger.lua
+   M /trunk/MasterLootLogger.xml
+   M /trunk/MasterLootManager.lua
+
+Adds sorting to the logger
+Fixes some legacy issues with how the mod operates when not the Master Looter.
+------------------------------------------------------------------------

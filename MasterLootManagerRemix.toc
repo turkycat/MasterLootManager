@@ -1,0 +1,16 @@
+## Interface: 30300
+## Title: Master Loot Manager Remix
+## Author: Zernin
+## Version: 2.0
+## Notes: Eases the stresses of passing out loot.
+## URL: http://wow.curse.com/downloads/wow-addons/details/mlm-remix.aspx
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: MasterLootManagerSettings,MasterLootLogger_Log,MasterLootLogger_LastExport
+## X-Curse-Packaged-Version: 2.0
+## X-Curse-Project-Name: Master Loot Manager Remix
+## X-Curse-Project-ID: mlm-remix
+## X-Curse-Repository-ID: wow/mlm-remix/mainline
+Localization.lua
+MasterLootManager.xml
+MasterLootLogger.xml
