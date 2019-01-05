@@ -577,13 +577,17 @@ end
 
 function MasterLootManager:OnUpdate()
 	if (self.countdownRunning) then
+		MasterLootManager:DebugPrint("Countdown running!")
 		local currentCountdownPosition = math.ceil(self.countdownRange - GetTime() + self.countdownStartTime)
+		MasterLootManager:DebugPrint("GetTime: " .. GetTime())
+		MasterLootManager:DebugPrint("currentCountdownPosition: " .. currentCountdownPosition)
 		if (currentCountdownPosition < 1) then
 			currentCountdownPosition = 1
 		end
 		local i = self.countdownLastDisplayed - 1
 		while (i >= currentCountdownPosition) do
-			self:Speak(i)
+			MasterLootManager:DebugPrint("countdown being printed " .. i)
+			self:Speak("Time remaining: " .. i)
 			i = i - 1
 		end
 		
